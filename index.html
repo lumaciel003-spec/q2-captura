@@ -265,39 +265,42 @@
             
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="text-center">
-                    <img src="/images/capa-evento.jpg" 
-                         alt="Luan Santana - Registro Histórico em Fortaleza"
+                    <img src="/__l5e/assets-v1/839445be-772f-4f79-a4f4-4b5be517688a/banner-rodeio.jpg" 
+                         alt="Rodeio Country Show - Etapa Barretos 2027"
                          class="rounded-lg shadow-md w-full max-w-sm mx-auto">
                 </div>
                 
                 <div class="space-y-4">
                     <div class="bg-gray-50 p-4 rounded-lg">
-                        <h3 class="text-xl font-bold mb-3 text-[#005B8E]">🎙 Luan Santana - Registro Histórico</h3>
+                        <h3 class="text-xl font-bold mb-3 text-[#005B8E]">🎙 Rodeio Country Show - Etapa Barretos 2027</h3>
                         
                         <div class="space-y-2">
                             <p class="flex items-center">
                                 <i class="fas fa-calendar text-[#005B8E] mr-3"></i>
-                                <strong>Data:</strong>&nbsp;15 de Agosto de 2026 - Sábado
+                                <strong>Datas:</strong>&nbsp;13, 14 e 15 de Novembro
                             </p>
                             <p class="flex items-center">
                                 <i class="fas fa-map-marker-alt text-[#005B8E] mr-3"></i>
-                                <strong>Local:</strong>&nbsp;Fortaleza/CE
+                                <strong>Local:</strong>&nbsp;Arena de Campina Grande do Sul
                             </p>
-                            <p class="flex items-center">
-                                <i class="fas fa-clock text-[#005B8E] mr-3"></i>
-                                <strong>Horário:</strong>&nbsp;20:00
+                            <p class="flex items-start">
+                                <i class="fas fa-microphone text-[#005B8E] mr-3 mt-1"></i>
+                                <span><strong>Atrações:</strong><br>
+                                Sexta 13/11 - Gusttavo Lima<br>
+                                Sábado 14/11 - Hugo e Guilherme<br>
+                                Domingo 15/11 - Fernando e Sorocaba</span>
                             </p>
                             <p class="flex items-center">
                                 <i class="fas fa-star text-[#005B8E] mr-3"></i>
-                                <strong>Classificação:</strong>&nbsp;Livre
+                                <strong>Ingressos:</strong>&nbsp;Q2 Ingressos e BaladAPP
                             </p>
                         </div>
                     </div>
                     
                     <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
                         <p class="text-green-700 font-bold text-center">
-                            🎉 <strong>PRÉ-VENDA DIA 07/04 ÀS 11:30!</strong><br>
-                            Garanta seu ingresso antes de todo mundo
+                            🎉 <strong>VENDAS OFICIAIS A PARTIR DE 01/09!</strong><br>
+                            Garanta seu ingresso antes que esgote
                         </p>
                     </div>
                 </div>
@@ -311,8 +314,8 @@
             </h2>
             
             <p class="text-lg text-gray-600 mb-6">
-                A <strong class="text-[#005B8E]">PRÉ-VENDA</strong> é por tempo limitado.<br>
-                Entre no <strong>Grupo VIP</strong> e garanta seu ingresso com preço exclusivo!
+                As <strong class="text-[#005B8E]">VENDAS OFICIAIS</strong> abrem dia 01/09.<br>
+                Entre no <strong>Grupo VIP</strong> e garanta seu ingresso assim que as vendas abrirem!
             </p>
             
             <!-- BOTÃO FINAL -->
@@ -381,8 +384,8 @@
     </footer>
 
     <script>
-        // Contador regressivo - 07/04/2026 às 11:30 horário de Brasília (UTC-3)
-        const targetDate = new Date('2026-04-07T14:30:00Z'); // 11:30 BRT = 14:30 UTC
+        // Contador regressivo - 01/09/2026 às 10:00 horário de Brasília (UTC-3)
+        const targetDate = new Date('2026-09-01T13:00:00Z'); // 10:00 BRT = 13:00 UTC
 
         function updateCountdown() {
             const now = new Date();
@@ -393,7 +396,7 @@
                 document.getElementById('hours').textContent = '00';
                 document.getElementById('minutes').textContent = '00';
                 document.getElementById('seconds').textContent = '00';
-                document.querySelector('.urgent-badge').innerHTML = '🔥 PRÉ-VENDA ABERTA! 🔥';
+                document.querySelector('.urgent-badge').innerHTML = '🔥 VENDAS OFICIAIS ABERTAS! 🔥';
                 return;
             }
 
